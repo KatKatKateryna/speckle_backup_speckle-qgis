@@ -124,5 +124,3 @@ zip-build*
 /typings/*
 *.csv
 */PyQt-UI*
-specklepy_qt_ui*
-plugin_utils/requirements.txt
