@@ -50,6 +50,7 @@ def tryGetClient(
                 # try get stream, only read access needed
                 return client, stream
             else:
+                return client, stream
                 # check write access
                 if stream.role is None:
                     raise Exception(
